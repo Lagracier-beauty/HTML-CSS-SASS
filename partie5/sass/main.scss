@@ -1,0 +1,65 @@
+@mixin myTextDecoration{
+    text-decoration: line-through;
+    font-size: 50px;
+}
+@mixin myFs ($fs:500px){
+    font-size: $fs;
+}
+
+.custom{
+    &1{
+        font-style: italic;
+        color: yellow;
+        @include myTextDecoration();
+        @include myFs(50px)
+        
+    }
+    &2{
+        font-style: italic;
+        color: maroon;
+        @include myTextDecoration();
+        @include myFs(px)
+    }
+    &3{
+        font-style: italic;
+        color: magenta;
+        @include myTextDecoration();
+        @include myFs(px)
+    }
+    &4{
+        font-style: italic;
+        color: green;
+        @include myTextDecoration();
+        @include myFs(200px)
+    }
+}
+
+@mixin BlocOption($h:100px,$w:200px,$b:red){
+    height:$h ;
+        width: $w;
+        background-color: $b;
+}
+
+.box{
+    border: 1px solid black;
+    height: 2OOpx;
+    display: flex;
+   
+    justify-content: start;
+    
+   
+   gap: 50px;
+    
+    &__1 {
+       
+        @include BlocOption(300px,500px,red );
+    }
+    &__2{
+        
+        @include BlocOption(300px,500px,blue)
+    }
+    &__3{
+        
+        @include BlocOption(300px,500px,black)
+    }
+}

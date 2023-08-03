@@ -1,0 +1,53 @@
+.custom1 {
+  font-style: italic;
+  color: yellow;
+  text-decoration: line-through;
+  font-size: 50px;
+  font-size: 50px;
+}
+.custom2 {
+  font-style: italic;
+  color: maroon;
+  text-decoration: line-through;
+  font-size: 50px;
+  font-size: px;
+}
+.custom3 {
+  font-style: italic;
+  color: magenta;
+  text-decoration: line-through;
+  font-size: 50px;
+  font-size: px;
+}
+.custom4 {
+  font-style: italic;
+  color: green;
+  text-decoration: line-through;
+  font-size: 50px;
+  font-size: 200px;
+}
+
+.box {
+  border: 1px solid black;
+  height: 2OOpx;
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+.box__1 {
+  height: 300px;
+  width: 500px;
+  background-color: red;
+}
+.box__2 {
+  height: 300px;
+  width: 500px;
+  background-color: blue;
+}
+.box__3 {
+  height: 300px;
+  width: 500px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
