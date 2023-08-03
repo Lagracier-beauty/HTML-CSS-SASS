@@ -1,3 +1,86 @@
+h1 {
+  text-align: center;
+  background-color: black;
+  color: black;
+  height: 200px;
+  font-size: 20px;
+  text-shadow: 5px 5px 5px white;
+}
 
+.presentation {
+  background-image: url(../image/image.jpg);
+  background-repeat: no repeat;
+}
+
+.presentation__detenteur {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sujet__List {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+  color: rgb(150, 200, 50);
+}
+
+/*.sujet__list{
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(150,200,50);
+}*/
+body {
+  background-color: red;
+}
+
+.photo p {
+  color: rgba(150, 200, 50, 0.5);
+}
+.photo #super {
+  color: aqua;
+}
+
+.photo__ex {
+  color: red;
+}
+
+.border {
+  border: 15px solid white;
+  border-radius: 15px;
+  box-shadow: 5px 5px yellow;
+}
+
+.box__1 {
+  height: 150px;
+  width: 150px;
+  background-color: magenta;
+}
+.box__2 {
+  height: 150px;
+  width: 150px;
+  background-color: maroon;
+}
+.box__3 {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+}
+
+.box2__1 {
+  height: 200px;
+  width: 200px;
+  background-color: violet;
+}
+.box2__2 {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+.box2__3 {
+  height: 200px;
+  width: 200px;
+  background-color: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
