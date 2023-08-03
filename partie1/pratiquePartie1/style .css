@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+#para{
+    color: blue;
+}
+.myfirstlist{
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+.para{
+    font-weight: bold;
+}
